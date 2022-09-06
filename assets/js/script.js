@@ -1,4 +1,4 @@
-//age = +prompt('Enter your age: ')
+//const age = +prompt('Enter your age: ')
 
 const isAdult = function (age) {
     if (!isNaN(age)) {
