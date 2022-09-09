@@ -32,7 +32,7 @@ const checkTriangle = function (a, b, c) {
     return null;
 };
 
-//const var1 = prompt('Enter var: ');
+const var1 = prompt('Enter var: ');
 
 const sumOdd = function (var1) {
     let result = 0;
@@ -42,6 +42,7 @@ const sumOdd = function (var1) {
     };
     return result;
 };
+console.log(sumOdd(var1))
 
 
 //const var1 = prompt('Enter variable: ');
