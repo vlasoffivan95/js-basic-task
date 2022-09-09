@@ -32,31 +32,31 @@ const checkTriangle = function (a, b, c) {
     return null;
 };
 
-const var1 = prompt('Enter var: ');
+//const var1 = prompt('Enter var: ');
 
 const sumOdd = function (var1) {
     let result = 0;
-    for (i = 1; i <= var1; i++) {
+    for (i = 1; i <= var1; i += 2) {
         result += i;
-        i += 1;
     };
     return result;
 };
-console.log(sumOdd(var1))
+
 
 
 //const var1 = prompt('Enter variable: ');
 
 const checkPrime = function (var1) {
-    if (!isNaN(var1)) {
-        for (let i = 2; i < var1; i++) {
-            if (var1 % i === 0) {
-                return false;
-            };
-            return true;
-        };
+    if (isNaN(var1)) {
+        return null;
     };
-    return null;
+    for (let i = 2; i < var1; i++) {
+        if (var1 % i === 0) {
+            return false;
+        };
+
+    };
+    return true;
 };
 
 
